@@ -7,3 +7,9 @@ def line(q)
     puts "The line is currently: #{numbered.join(" ")}"
   end
 end
+def take_a_number(q, name)
+  q.push(name)
+  place = q.index(name)
+   puts "Welcome, #{name}. You are number #{place+1} in line."
+end
+end
