@@ -12,5 +12,4 @@ def take_a_number(q, name)
   q.push(name)
   place = q.index(name)
   puts "Welcome, #{name}. You are number #{place+1} in line."
- end
 end
