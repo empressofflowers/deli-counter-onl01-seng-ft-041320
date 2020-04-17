@@ -13,3 +13,8 @@ def take_a_number(q, name)
   place = q.index(name)
   puts "Welcome, #{name}. You are number #{place+1} in line."
 end
+
+def now_serving(q)
+  if q.size == 0
+    puts "There is nobody waiting to be served!"
+  else  
