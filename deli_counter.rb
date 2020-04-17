@@ -17,4 +17,6 @@ end
 def now_serving(q)
   if q.size == 0
     puts "There is nobody waiting to be served!"
-  else  
+  else
+  end
+end  
